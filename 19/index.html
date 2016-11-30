@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>DailyUi#001 - Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+	<form class="signUp" method="post" action="/submit" name="myform">
+		<h3>Create Your Account</h3>
+		<p>Just enter your email address</br>
+and your password for join.
+		</p>
+		<input class="w100" type="email" name="email" placeholder="Insert eMail" reqired autocomplete='off' />
+		<input type="password" name="password" placeholder="Insert Password" reqired />
+		<input type="password" name="password_again" placeholder="Verify Password" reqired />
+		<button class="form-btn sx log-in" type="button">Log In</button>
+		<button class="form-btn dx" type="submit">Sign Up</button>
+	</form>
+	<form class="signIn">
+		<h3>Welcome</br>Back !</h3>
+		<button class="fb" type="button">Log In With Facebook</button>
+		<p>- or -</p>
+		<input type="email" placeholder="Insert eMail" autocomplete='off' reqired />
+		<input type="password" placeholder="Insert Password" reqired />
+		<button class="form-btn sx back" type="button">Back</button>
+		<button class="form-btn dx" type="submit">Log In</button>
+	</form>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+
+.login
+  %h2 Register
+  %input{:name => "username", :placeholder => "Username", :type => "text"}
+  %input#pw{:name => "password", :placeholder => "Password", :type => "password"}
+  %input{:name => "email", :placeholder => "E-Mail Address", :type => "text"}
+  .agree
+    %input#agree{:name => "agree", :type => "checkbox"}
+    = succeed "Accept rules and conditions" do
+      %label{:for => "agree"}
+  %input{:type => "submit",:class => "animated", :value => "Register"}
+  %a.forgot{:href => "#"} Already have an account?

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML5 Form</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+
+    <form id="signup" method="post" action="/submit" name="myform">
+
+        <div class="header">
+        
+            <h3>Sign Up</h3>
+            
+            <p>You want to fill out this form</p>
+            
+        </div>
+        
+        <div class="sep"></div>
+
+        <div class="inputs">
+        
+            <input type="email" name="email" placeholder="e-mail" autofocus />
+        
+            <input type="password" name="password" placeholder="Password" />
+            
+            <div class="checkboxy">
+                <input name="cecky" id="checky" value="1" type="checkbox" /><label class="terms">I accept the terms of use</label>
+            </div>
+            
+            <a id="submit" href="#" onclick="document.forms['myform'].submit();">SIGN UP FOR INVITE NOW</a>
+        
+        </div>
+
+    </form>
+
+</div>
+​
+    
+    
+    
+    
+  </body>
+</html>
