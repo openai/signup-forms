@@ -1,3 +1,5 @@
+**Status:** Archive (code is provided as-is, no updates expected)
+
 # Signup Forms
 
 This repo hosts a collection of signup forms. Each signup form will have a public url:
